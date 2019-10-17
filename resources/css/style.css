@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+.header {
+  min-height: 85vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, #423c63, #e08bbb);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.emphasis {
+  color: #e0de8b;
+}
+
+.emphasis-alt {
+  color: #423c63;
+}
+
+.nav {
+  height: 80px;
+}
+
+nav .container {
+  display: flex;
+}
+
+.nav__menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav__item {
+  margin-right: 4rem;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav__link:hover {
+  color: #e0de8b;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1,
+.container img {
+  flex: 1;
+}
+
+.container img {
+  max-width: 100%;
+}
+
+.hero__content {
+  padding-bottom: 5rem;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.hero__subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #333;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: #423c63;
+  border-color: #423c63;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
+  background: #423c63;
+  border-color: #423c63;
+}
+
+#tour {
+  margin: 5rem 0;
+}
+
+.tour__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour__title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.tour__description {
+  font-size: 1.2rem;
+}
+
+.tour__dates {
+  padding-top: 5rem;
+}
+
+.tour__table {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.buy-ticket:hover {
+  color: #423c63;
+}
